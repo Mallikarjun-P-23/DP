@@ -14,16 +14,13 @@ int jumpSearch(int arr[], int x, int n)
         if (prev >= n)
             return -1;
     }
-
    
     while (arr[prev] < x)
     {
         prev++;
-
         if (prev == min(step, n))
             return -1;
     }
-
     if (arr[prev] == x)
         return prev;
 
