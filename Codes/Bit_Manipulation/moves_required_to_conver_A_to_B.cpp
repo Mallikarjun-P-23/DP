@@ -7,8 +7,8 @@ int minBitFlips(int start, int goal) {
 }
 
 int main() {
-    cout << minBitFlips(10, 7) << endl; // Output: 3
-    cout << minBitFlips(3, 3) << endl;  // Output: 0
-    cout << minBitFlips(0, 15) << endl; // Output: 4
+    cout << minBitFlips(10, 7) << endl; 
+    cout << minBitFlips(3, 3) << endl; 
+    cout << minBitFlips(0, 15) << endl; 
     return 0;
 }
